@@ -135,6 +135,8 @@ setLogin(null);
 
     <div className="App">
 
+      <div className="creator">Developed By : <a href="https://github.com/Kennink" target="_blank">Kennink</a> </div>
+
       <div className="heading">Github Profile</div>
       <div className="subHeading">Generate your Github Profile</div>
       <div className="label">Github Username</div>
