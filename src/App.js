@@ -62,7 +62,7 @@ const handleSubmit = () => {
 
  
 
-  if(userInput == ""){
+  if(userInput === ""){
     alert("Insert Github Username !");
   }
   else{
@@ -135,7 +135,7 @@ setLogin(null);
 
     <div className="App">
 
-      <div className="creator">Developed By : <a href="https://github.com/Kennink" target="_blank">Kennink</a> </div>
+      <div className="creator">Developed By : <a href="https://github.com/Kennink" target="_blank" rel="noreferrer">Kennink</a> </div>
 
       <div className="heading">Github Profile</div>
       <div className="subHeading">Generate your Github Profile</div>
@@ -155,10 +155,10 @@ setLogin(null);
 
 <div className="topWrapper">
 
-<div  className="goBack">  <img onClick={hide} /> </div>
+<div  className="goBack">  <img onClick={hide} alt=""/> </div>
 <div className="hireMeWrapper">
 
-{hireable == true ? <button id="hire" className="hireMe">Hire Me</button> :
+{hireable === true ? <button id="hire" className="hireMe">Hire Me</button> :
  null}
 
 
